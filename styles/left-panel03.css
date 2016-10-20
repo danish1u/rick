@@ -1,3 +1,6 @@
+#LeftPanel *{
+    margin-top: -1px;
+}
 
 .main{
   border-color: #223b59;

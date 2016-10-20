@@ -1,9 +1,9 @@
 @charset "utf-8";
-@import url('product-details.css');
-@import url('custom-home.css');
-@import url('custompage.css');
-@import url('new-arrivals.css');
-@import url('featured-products.css');
+@import url('http://www.ebay-store-designer.com/estore/daxej/store/css/product-details.css');
+@import url('http://www.ebay-store-designer.com/estore/daxej/store/css/custom-home.css');
+@import url('http://www.ebay-store-designer.com/estore/daxej/store/css/custompage.css');
+@import url('http://www.ebay-store-designer.com/estore/daxej/store/css/new-arrivals.css');
+@import url('http://www.ebay-store-designer.com/estore/daxej/store/css/featured-products.css');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
 /*---Common and Standard->START*/
 body {
@@ -209,7 +209,7 @@ a.linkopac:hover img {
 	margin: 0;
 	padding: 10px;
 	float: left;
-	background: #223b59 url(../images/left-cat.png) no-repeat right 10px center;
+	background: #223b59 url("http://www.ebay-store-designer.com/estore/daxej/store/images/left-cat.png") no-repeat right 10px center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18pt;
 	color: #fff;
@@ -254,12 +254,12 @@ a.linkopac:hover img {
 	background: #223b59;
 }
 .home-icon {
-	background: url(../images/home-icon.png) no-repeat center top;
+	background: url("http://www.ebay-store-designer.com/estore/daxej/store/images/home-icon.png") no-repeat center top;
 	width: 20px;
 	height: 28px;
 }
 .home-icon:hover {
-	background: #223b59 url(../images/home-icon.png) no-repeat center bottom !important;
+	background: #223b59 url("http://www.ebay-store-designer.com/estore/daxej/store/images/home-icon.png") no-repeat center bottom !important;
 }
 #banner-holder {
 	width: 100%;

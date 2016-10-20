@@ -1,0 +1,81 @@
+/* Demo CSS - You do not need this css in your own slider */
+pre {
+	font-family: "Source Code Pro", monospace;
+	display: none;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 20px;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	background-color: whiteSmoke;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+h2 {
+	font-size: 48px;
+}
+pre + h2 {
+	margin-top: 80px;
+}
+#container {
+	max-width: 1000px;
+	margin: 10px auto 20px;
+}
+#banner-fade, #banner-slide {
+	height: auto!important;
+	max-width: 980px !important;
+	margin: 0 auto;
+	overflow: hidden;
+	max-height: 450px;
+}
+.bjqs-slide img {
+	height: auto!important;
+	width: 100% !important;
+}
+ul.bjqs-controls.v-centered li a {
+	display: block;
+	padding: 0;
+	background: none;
+	color: #000;
+	text-decoration: none;
+	text-indent: -9999px;
+	width: 31px;
+	height: 29px;
+  margin-top: -36px;
+}
+ul.bjqs-controls.v-centered li a:hover {
+	background: #000;
+	color: #fff;
+}
+ol.bjqs-markers li a {
+	padding: 6px;
+	background: #000;
+	color: #fff;
+	margin: 5px;
+	text-decoration: none;
+	font-size: 0px;
+	border: 3px solid #00b426;
+}
+ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
+	background: #00b426;
+}
+p.bjqs-caption {
+	background: rgba(255,255,255,0.5);
+}
+.bjqs-prev a {
+	background: url("http://www.ebay-store-designer.com/estore/daxej/store/images/slider-arrow.png") no-repeat left center !important;
+}
+.bjqs-prev a:hover {
+	background: url("http://www.ebay-store-designer.com/estore/daxej/store/images/slider-arrow.png") no-repeat left center !important;
+}
+.bjqs-next a {
+	background: url"http://www.ebay-store-designer.com/estore/daxej/store/images/slider-arrow.png") no-repeat right center !important;
+}
+.bjqs-next a:hover {
+	background: url("http://www.ebay-store-designer.com/estore/daxej/store/images/slider-arrow.png") no-repeat right center !important;
+}

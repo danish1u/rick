@@ -606,7 +606,7 @@ table {
 }
 #designer-footer {
 	position: relative;
-	max-width: 1200px;
+	max-width: 1500px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -624,18 +624,17 @@ table {
   text-transform: uppercase;
 }
 #designer-footer #designer-footernav {
-  float: left;
-  margin: 0 14% 0 0;
-  padding: 0;
-  position: relative;
-  width: 20%;
+	float: left;
+	margin: 2px 6% 0 39px;
+	padding: 0;
+	position: relative;
+	width: 197px;
 }
 #designer-footer #designer-footernav ul {
 	list-style: none;
-	margin: 0;
-	padding: 0;
-	width: 33.3%;
-	float: left;
+    margin: 0;
+    padding: 0;
+    width: 252px;
 }
 #designer-footer #designer-footernav ul li {
 	list-style: none;
@@ -703,11 +702,11 @@ table {
 	text-decoration: none;
 }
 #designer-social {
-  float: left;
-  margin: 0 8% 2em 0;
-  padding: 0;
-  position: relative;
-  width: 28%;
+	float: left;
+	margin: 0px 2% 2em 0;
+	padding: 0;
+	position: relative;
+	width: 340px;
 }
 #designer-social p {
 	float: left;
@@ -761,7 +760,7 @@ table {
 	float: left;
 	margin: 0;
 	padding: 0;
-	width: 30%;
+	width: 250px;
 }
 #designer-payment .payment-logo {
 	position: relative;
@@ -772,15 +771,23 @@ table {
 	padding: 0;
 	float: left;
 }
+#Facebook {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 426px;
+	margin-left: 107px;
+}
+
 #designer-footerwrapper {
 	width: 100%;
 	float: left;
 	margin: 0;
 	padding: 0;
-	background: #fff;
+	background: #272727;
 }
 #designer-footer #designer-copy {
-	color: #223b59;
+	    color: #fff;
 	font-size: 11pt;
 	font-weight: normal;
 	padding: 1em 0;
@@ -792,10 +799,10 @@ table {
 	margin: 0;
 }
 #designer-footer #designer-copy span {
-	color: #223b59;
+color: #36cccd;
 }
 #designer-footer #designer-designer {
-	color: #223b59;
+    color: #fff;
 	font-size: 11pt;
 	font-weight: normal;
 	margin: 0;

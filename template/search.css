@@ -1,0 +1,80 @@
+
+.sc_search {
+  width: 318px;
+      height: 48px;
+      float: right;
+      display: inline-block;
+      margin: 7px 83px 0 0;
+      margin-top: 14px;
+      border: 1px solid rgba(123, 123, 127, 0.12);
+      box-shadow: 1px 3px 20px -5px rgba(0, 0, 0, 0.46);
+}
+.sc_search button {
+  overflow: visible;
+position: relative;
+margin-left: -1px;
+float: left;
+border: 0;
+padding: 0;
+cursor: pointer;
+height: 49px;
+width: 97px;
+font: bold 12px/36px 'Raleway', sans-serif;
+color: #fff;
+transition: all 0.3s ease-out;
+text-transform: uppercase;
+background: #404041;
+}
+
+.sc_search button:hover {
+    color: grey;
+}
+
+.sc_search button {
+  overflow: visible;
+    position: relative;
+    margin-left: -2px;
+    float: left;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 97px;
+    font: bold 12px/36px 'Raleway', sans-serif;
+    color: #fff;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+    background: #404041;
+}
+.sc_search button:hover {
+  overflow: visible;
+    position: relative;
+    margin-left: -2px;
+    float: left;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 97px;
+    font: bold 12px/36px 'Raleway', sans-serif;
+    color: #fff;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+background: rgba(0, 167, 171, 0.74);
+}
+.sc_search .inp_srh {
+  width: 225px;
+margin-left: -2;
+height: 50px;
+padding-left: 36px;
+padding-bottom: 13px;
+border: 1px solid rgba(221, 221, 221, 0.27);
+outline: none;
+color: #181818;
+line-height: 26px;
+font-size: 10px;
+font-family: arial;
+display: block;
+float: left;
+background: #fff url("http://www.ebay-store-designer.com/estore/daxej/store/images/search-icon.png") no-repeat 10px center;
+}

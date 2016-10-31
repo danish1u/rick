@@ -634,11 +634,11 @@ display: inline-block;
 	float: left;
 }
 #Facebook {
-	float: left;
-	margin: 0;
-	padding: 0;
-	width: 426px;
-	margin-left: 107px;
+  float: left;
+      margin: 0;
+      padding: 0;
+      width: 281px;
+      margin-left: 100px;
 }
 
 #designer-footerwrapper {
@@ -652,7 +652,7 @@ display: inline-block;
 	    color: #fff;
 	font-size: 11pt;
 	font-weight: normal;
-	padding: 1em 0;
+	padding: 1em 2em;
 	width: auto;
 	text-align: left;
 	text-decoration: none;
@@ -668,7 +668,7 @@ color: #36cccd;
 	font-size: 11pt;
 	font-weight: normal;
 	margin: 0;
-	padding: 1em 0;
+	padding: 1em 2em;
 	text-align: right;
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;

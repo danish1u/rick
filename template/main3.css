@@ -6,7 +6,7 @@ float: left;
   width: 1150px;
   margin: auto;
 padding-bottom: 21px;
-display: inline-block;
+
 }
 .goldline {
 width: 1000px;
@@ -136,6 +136,7 @@ font-weight: bold;
 .nknkn{
   display: inline-block;
   padding-top: 10px;
-  width: 980px;
 }
+
+
 

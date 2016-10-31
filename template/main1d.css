@@ -484,13 +484,14 @@ display: inline-block;
   width: 100%;
   text-align: left;
   text-transform: uppercase;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.23);
 }
 #designer-footer #designer-footernav {
-	float: left;
-	margin: 2px 6% 0 39px;
-	padding: 0;
-	position: relative;
-	width: 197px;
+  float: left;
+margin: 2px 6% 0 39px;
+padding: 0;
+position: relative;
+width: 184px;
 }
 #designer-footer #designer-footernav ul {
 	list-style: none;
@@ -564,11 +565,11 @@ display: inline-block;
 	text-decoration: none;
 }
 #designer-social {
-	float: left;
-	margin: 0px 2% 2em 0;
-	padding: 0;
-	position: relative;
-	width: 340px;
+  float: left;
+    margin: 2px 3% 1em 0;
+    padding: 0;
+    position: relative;
+    width: 312px
 }
 #designer-social p {
 	float: left;
@@ -619,10 +620,10 @@ display: inline-block;
 	background: url("https://raw.githubusercontent.com/danish1u/rick/master/imges/apps-skype-alt-metro-icon%20as.png") no-repeat -120px top;
 }
 #designer-payment {
-	float: left;
-	margin: 0;
-	padding: 0;
-	width: 250px;
+  float: left;
+  margin: 2px;
+  padding: 0;
+  width: 315px;
 }
 #designer-payment .payment-logo {
 	position: relative;
@@ -635,10 +636,10 @@ display: inline-block;
 }
 #Facebook {
   float: left;
-      margin: 0;
-      padding: 0;
-      width: 281px;
-      margin-left: 100px;
+    margin: 3;
+    padding: 0;
+    width: 297px;
+    margin-left: 34px;
 }
 
 #designer-footerwrapper {

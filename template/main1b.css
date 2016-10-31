@@ -1,10 +1,11 @@
-@charset "utf-8";
+@charset "utf-10";
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/product-details.css');
-@import url('https://cdn.rawgit.com/danish1u/rick/master/template/custom-home.css');
+@import url('https://cdn.rawgit.com/danish1u/rick/master/template/custom-home1.css');
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/custompage.css');
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/new-arrivals.css');
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/featured-products.css');
-@import url('https://cdn.rawgit.com/danish1u/rick/master/template/main2.css');
+@import url('https://cdn.rawgit.com/danish1u/rick/master/template/main3.css');
+@import url('https://cdn.rawgit.com/danish1u/rick/master/template/search.css');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
 /*---Common and Standard->START*/
 body {
@@ -13,6 +14,7 @@ body {
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
+
 a.linkopac img {
 	filter: alpha(opacity=100%);
 	-moz-opacity: 1.0;
@@ -42,10 +44,6 @@ a.linkopac:hover img {
 .designer-background {
 	padding: 0;
 	width: 100%;
-	text-align: center;
-	margin: 0;
-	background: #fff;
-	float: left;
 }
 .designer-content {
 	width: 100%;
@@ -144,69 +142,6 @@ a.linkopac:hover img {
 	text-transform: uppercase;
 	background: url("https://raw.githubusercontent.com/danish1u/rick/master/imges/asasas.png") no-repeat left center;
 }
-#designer-search {
-	float: left;
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0;
-	background: #fff url("http://www.ebay-store-designer.com/estore/daxej/store/images/search-icon.png") no-repeat 10px center;
-  border:1px solid rgba(123, 123, 127, 0.12);
-}
-#designer-search #designer-input {
-	background: transparent;
-	border: 0 none !important;
-	float: left;
-	height: 45px;
-	margin: 0;
-	padding: 0 2.5% 0 10%;
-	position: relative;
-	width: 62.5%;
-  box-shadow:1px 3px 20px -5px rgba(0, 0, 0, 0.15)
-}
-#designer-search #designer-input .v4sbox {
-	width: 100%;
-	line-height: 45px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-	height: 45px;
-	background: transparent;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 9pt;
-	color: #6e6e6e;
-	border: none;
-	float: left;
-}
-#designer-search #designer-input .v4sbox:hover {
-	color: #474e5d;
-}
-#designer-search #designer-submit {
-	float: right;
-	height: 45px;
-	margin: 0;
-	width: 25%;
-}
-#designer-search input.btn-search {
-	width: 100%;
-	height: 45px;
-	margin: 0;
-	padding: 0;
-	float: left;
-	background: #404041;
-	display: block;
-	border: none;
-	cursor: pointer;
-	transition: all 0.5s ease-in-out;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14pt;
-	color: #40b1bc;
-	text-transform: uppercase;
-}
-#designer-search input.btn-search:hover {
-	background:  #40b1bc;
-	color:#404041;
-}
 .cat-title {
 	width: 200px;
 	margin: 0;
@@ -274,7 +209,6 @@ a.linkopac:hover img {
 	padding: 0;
 	margin: 0;
 	position: relative;
-      margin-left: -29px;
 }
 #CoverImage p {
 	margin: 0 !important;
@@ -329,8 +263,8 @@ table {
     border-spacing: 0px !important;
 }
 #designer-cathead {
-	margin: 0;
-	width: 161px;
+  margin: 0;
+	width: 72.2%;
 	padding: 0.5em 0.3em 0.5em 3em;
 	font-size: 14pt;
 	font-family: 'Open Sans', sans-serif;
@@ -338,7 +272,7 @@ table {
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: left;
-	background: #404041 url(../images/news-letter-icon.png) no-repeat 10px center;
+	background: #36cccd url("http://www.ebay-store-designer.com/estore/daxej/store/images/news-letter-icon.png") no-repeat 10px center;
 }
 #designer-categories {
 	width: 99.8%;
@@ -466,7 +400,7 @@ table {
 	margin: 0;
 	padding: 2.5%;
 	position: relative;
-	width: 211px;
+	width: 95%;
 	background: #223b59;
 }
 #designer-newsletter #designer-text {
@@ -515,82 +449,6 @@ table {
 #designer-newsletter input.btn-signup:hover {
 	background: #fff;
 	color: #223b59;
-}
-.best-collection {
-	width: 100%;
-	float: left;
-	margin: 0;
-	padding: 0;
-	background: url(../images/best-collection.jpg) no-repeat center top;
-}
-.best-collection h1 {
-	width: auto;
-	float: left;
-	margin: 1em 0 0.3em 0.5em !important;
-	padding: 0 !important;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14pt;
-	color: #223b59;
-	font-weight: normal;
-	text-transform: uppercase;
-	text-align: center;
-}
-.best-collection .shopnow {
-	font-family: 'Open Sans', sans-serif;
-	color: #fff;
-	font-size: 12pt;
-	font-weight: normal;
-	margin: 0 0 8.4em 2.2em !important;
-	padding: 0.3em 0.5em !important;
-	border: none;
-	cursor: pointer;
-	text-decoration: none;
-	background: #36cccd;
-	transition: all 0.5s ease-in-out;
-	width: auto;
-	float: left;
-	text-transform: uppercase;
-}
-.best-collection .shopnow:hover {
-	background: #223b59;
-}
-.special-offer {
-	width: 100%;
-	float: left;
-	margin: 0;
-	padding: 0;
-	background: url(../images/special-offer.jpg) no-repeat center top;
-}
-.special-offer h1 {
-	width: 100%;
-	float: left;
-	margin: 7em 0 0.2em 0 !important;
-	padding: 0 !important;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16pt;
-	color: #fff;
-	font-weight: normal;
-	text-transform: uppercase;
-	text-align: center;
-}
-.special-offer .shopnow {
-	font-family: 'Open Sans', sans-serif;
-	color: #fff;
-	font-size: 12pt;
-	font-weight: normal;
-	margin: 0 auto 1.7em !important;
-	padding: 0.3em 0.5em !important;
-	border: none;
-	cursor: pointer;
-	text-decoration: none;
-	background: #36cccd;
-	transition: all 0.5s ease-in-out;
-	width: auto;
-	text-transform: uppercase;
-	display: table;
-}
-.special-offer .shopnow:hover {
-	background: #223b59;
 }
 #designer-gap {
 	height: 20px;
@@ -776,11 +634,11 @@ display: inline-block;
 	float: left;
 }
 #Facebook {
-    float: right;
-    margin: 0;
-    padding: 0;
-    width: 328px;
-    margin-left: 63px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 426px;
+	margin-left: 107px;
 }
 
 #designer-footerwrapper {
@@ -906,7 +764,7 @@ clear: both;
   margin-top: 10px;
   position: relative;
   float: right;
-  margin-right: -85px;
+  margin-right: -37px;
 }
 input, section {
 clear: both;

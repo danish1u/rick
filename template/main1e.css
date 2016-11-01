@@ -215,7 +215,108 @@ a.linkopac:hover img {
 	padding: 0 !important;
 }
 /*---Header---<<END*/
+#designer-cathead p{
+  margin: 0;
+    width: 74%;
+    padding: 0.5em 0.3em 0.5em 3em;
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    background: #36cccd url("http://www.ebay-store-designer.com/estore/daxej/store/images/news-letter-icon.png") no-repeat 10px center;
+}
+#pst-gap{
+height: 15px;
+width: 210px;
+}
+#pst-newshead{
+  width: 210px;
+height: 45px;
+font-family: 'Oswald', sans-serif;
+font-size: 25px;
+color: #fe0000;
+text-align: left;
+line-height: 45px;
+margin: 0px;
+padding: 0px;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+border-bottom-width: 3px;
+border-bottom-style: solid;
+border-bottom-color: #181818;
+}
+#pst-newsletter{
+  width: 224px;
+  height: 143px;
+  margin: 0px;
+  padding: 0;
+  background: #404041;
+}
+#pst-newsletter #pst-text{
+  color: #fff;
+font-family: 'Open Sans', sans-serif;
+text-align: left;
+font-size: 14px;
+position: relative;
+left: auto;
+width: 190px;
+text-decoration: none;
+padding: 0px;
+top: 12px;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+right: auto;
+line-height: 15px;
+font-weight: normal;
+}
+#pst-newsletter #pst-signup{
+  position: relative;
+top: 22px;
+margin-top: 0;
+margin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+text-align: center;
+left: 4px;
+right: auto;
+padding: 0px;
+height: 39px;
+width: 216px;
+float: left;
+}
+#pst-newsletter input.btn-signup{
+  margin: 0px;
+float: right;
+background-image: url("https://raw.githubusercontent.com/danish1u/rick/master/template/Subscribe.png");
+display: block;
+border: none 0px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+width: 216px;
+transition: all 0.3s ease-out;
+height: 39px;
+background-repeat: no-repeat;
+background-position: center top;
+text-indent: -999em;
+cursor: pointer;
+background-color: transparent;
+}
+#pst-newsletter input.btn-signup:hover {
+	margin: 0px;
+	background-image: url("https://raw.githubusercontent.com/danish1u/rick/master/template/Subscribe.png");
+	text-align: center;
+	text-indent: 15px;
+	background-position: center bottom;
+	height: 39px;
 
+	text-indent: -999em;
+	cursor: pointer;
+}
 /*---eBay Default Mods->START*/
 #TopPromoArea {
 	padding: 0px !important;
@@ -261,18 +362,6 @@ a.linkopac:hover img {
 }
 table {
     border-spacing: 0px !important;
-}
-#designer-cathead {
-  margin: 0;
-	width: 72.2%;
-	padding: 0.5em 0.3em 0.5em 3em;
-	font-size: 14pt;
-	font-family: 'Open Sans', sans-serif;
-	color: #fff;
-	text-transform: uppercase;
-	text-decoration: none;
-	text-align: left;
-	background: #36cccd url("http://www.ebay-store-designer.com/estore/daxej/store/images/news-letter-icon.png") no-repeat 10px center;
 }
 #designer-categories {
 	width: 99.8%;
@@ -395,66 +484,7 @@ table {
 	text-align: left;
 	background: #36cccd url(../images/left-subcat-hov-arrow.png) no-repeat 20px 9px;
 }
-#designer-newsletter {
-	float: left;
-	margin: 0;
-	padding: 2.5%;
-	position: relative;
-	width: 95%;
-	background: #223b59;
-}
-#designer-newsletter #designer-text {
-	font-family: 'Open Sans', sans-serif;
-	color: #fff;
-	font-size: 10pt;
-	position: relative;
-	font-weight: normal;
-	text-decoration: none;
-	text-align: left;
-	float: left;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-}
-#designer-newsletter #designer-text p {
-	padding: 0;
-	margin: 0;
-}
-#designer-newsletter #designer-signup {
-	position: relative;
-	padding: 0;
-	height: auto;
-	width: 100%;
-	margin: 0.8em 0 0;
-	background-color: transparent;
-	float: left;
-	text-align: left;
-}
-#designer-newsletter input.btn-signup {
-	font-family: 'Open Sans', sans-serif;
-	color: #fff;
-	font-size: 14pt;
-	font-weight: normal;
-	margin: 0;
-	padding: 0.3em 0;
-	border: none;
-	cursor: pointer;
-	text-decoration: none;
-	width: auto;
-	background: #36cccd;
-	transition: all 0.5s ease-in-out;
-	width: 100%;
-	text-transform: uppercase;
-}
-#designer-newsletter input.btn-signup:hover {
-	background: #fff;
-	color: #223b59;
-}
-#designer-gap {
-	height: 20px;
-	width: 220px;
-	clear: both;
-}
+
 /*---Left Column---<<END*/
 
 /*---Footer->START*/

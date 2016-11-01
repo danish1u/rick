@@ -4,9 +4,9 @@
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/custompage.css');
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/new-arrivals.css');
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/featured-products.css');
-@import url('https://cdn.rawgit.com/danish1u/rick/master/template/main3.css');
+@import url('https://cdn.rawgit.com/danish1u/rick/master/template/main4.css');
 @import url('https://cdn.rawgit.com/danish1u/rick/master/template/search3.css');
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 /*---Common and Standard->START*/
 body {
 	margin: 0 auto;
@@ -203,12 +203,13 @@ a.linkopac:hover img {
 	background: #36cccd url("https://raw.githubusercontent.com/danish1u/rick/master/imges/sds.png") no-repeat center bottom !important;
 }
 #banner-holder {
-	width: 900px;
-	float: left;
-	height: auto;
-	padding: 0;
-	margin: 0;
-	position: relative;
+	    width: 936px;
+    float: left;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-left: -26px;
 }
 #CoverImage p {
 	margin: 0 !important;
@@ -791,11 +792,11 @@ display: table;
 clear: both;
 }
 .tab_container {
-  width: 920px;
-  margin-top: 10px;
-  position: relative;
-  float: right;
-  margin-right: -37px;
+    width: 929px;
+    margin-top: 10px;
+    position: relative;
+    float: right;
+    margin-left: 6px;
 }
 input, section {
 clear: both;

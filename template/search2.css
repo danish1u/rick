@@ -1,7 +1,7 @@
 
 .sc_search {
   width: 318px;
-      height: 48px;
+      height: 40px;
       float: right;
       display: inline-block;
       margin: 7px 83px 0 0;
@@ -17,7 +17,7 @@ float: left;
 border: 0;
 padding: 0;
 cursor: pointer;
-height: 49px;
+height: 40px;
 width: 97px;
 font: bold 12px/36px 'Raleway', sans-serif;
 color: #fff;
@@ -38,7 +38,7 @@ background: #404041;
     border: 0;
     padding: 0;
     cursor: pointer;
-    height: 50px;
+    height: 41px;
     width: 97px;
     font: bold 12px/36px 'Raleway', sans-serif;
     color: #fff;
@@ -54,7 +54,7 @@ background: #404041;
     border: 0;
     padding: 0;
     cursor: pointer;
-    height: 50px;
+    height: 40px;
     width: 97px;
     font: bold 12px/36px 'Raleway', sans-serif;
     color: #fff;
@@ -65,7 +65,7 @@ background: rgba(0, 167, 171, 0.74);
 .sc_search .inp_srh {
   width: 225px;
 margin-left: -2;
-height: 50px;
+height: 40px;
 padding-left: 36px;
 padding-bottom: 13px;
 border: 1px solid rgba(221, 221, 221, 0.27);

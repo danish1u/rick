@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+@charset "utf-8";
+body {
+	margin: 0 auto;
+}
+#CentralArea {
+	width:980px;
+	margin: 0 !important;
+	vertical-align: top !important;
+	padding: 0;
+	border: 0 none !important;
+}
+#custom-main-page {
+	margin: 0;
+	max-width: 980px;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+.customproduct {
+	width: 100%;
+	float: left;
+	margin: 0 0 2em 1.4em;
+	padding: 0;
+}
+.new-arrivals-row {
+	float: left;
+	width: 98.4%;
+	margin: 0 0 0 0.1em;
+	padding: 0;
+	position: relative;
+}
+.new-arrivals-row h1 {
+	background: none;
+	color: #223b59;
+	font-size: 17pt;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	width: 100%;
+	position: relative;
+	margin: 0 0 0.5em 0;
+	padding: 0.3em 0;
+	background: url(../images/brd-bottom.png) repeat-x left bottom;
+}
+.featured-products-row {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.featured-products-row h1 {
+	background: none;
+	color: #223b59;
+	font-size: 17pt;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	width: 100%;
+	position: relative;
+	margin: 0 0 0.5em 0;
+	padding: 0.3em 0;
+	background: url(../images/brd-bottom.png) repeat-x left bottom;
+}
+.category-row {
+	width: 100%;
+	float: left;
+	margin: 1.2em 0 0.5em 0;
+	padding: 0;
+}
+.category-row ul {
+	width: 100%;
+	float: left;
+	margin: 0 0 0 1.3em;
+	padding: 0;
+	list-style: none;
+}
+.category-row ul li {
+	width: auto;
+	float: left;
+	margin: 0 1.3em 0 0;
+	list-style: none;
+	transition: all 0.5s ease-in-out;
+}
+.category-row ul li:last-child {
+	margin: 0;
+}
+.category-row ul li:hover {
+	opacity: 0.8;
+}

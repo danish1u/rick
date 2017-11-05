@@ -2022,7 +2022,78 @@ table td[class*="col-"], table th[class*="col-"] {
     position: relative
 }
 
+table.v4midBox {
+    border: 0 !important
+}
 
+.v4midBox.v4nfc .v4acp_mid div.ttl {
+    display: none
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lcat {
+    width: 100%;
+    border-top: 0;
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev1 li {
+    width: 100%;
+    margin: 0;
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev1 >li {
+    position: relative;
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev1 >li:before {
+    font-family: FontAwesome;
+    content: '\f0da';
+    font-size: 12px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev1 >li:first-child {
+    border-top: 0
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev1 li a, .v4midBox.v4nfc .v4acp_mid .v4mid .lev1 li span:first-child {
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev2 {
+    padding: 0;
+    list-style: none
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev2 li {
+    padding-left: 28px;
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev2 li a, .v4midBox.v4nfc .v4acp_mid .v4mid .lev2 li span:first-child {
+    font-weight: 400
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .lev2 li a:hover, .v4midBox.v4nfc .v4acp_mid .v4mid .lev2 li span:first-child {
+    color: #74459b
+}
+.v4midBox.v4nfc .v4acp_mid .v4mid .morelnk {
+    display: none
+}
+.v4midBox.v4nfc .v4acp_mid div.link {
+}
+.v4midBox.v4nfc .v4acp_mid div.link br {
+    display: none
+}
+.v4midBox.v4nfc .v4acp_mid div.link a {
+    border-top: 1px solid #f1f1f1;
+    padding: 9px 14px;
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3a3939;
+}
+.lcat .cnt {
+    display: none !important;
+    font-size: 15px !important;
+    color: #3a3939 !important;
+    font-weight: 400
+}
+.lcat a.all_cats {
+    display: none
+}
 .border-top {
     background: #f46619;
     height: 6px;
@@ -2607,14 +2678,7 @@ table.gallery tr td.details div.ttl {
 
 @media (min-width:769px) and (max-width:991px) {
 /* store */
-.col-left .box-brand h2 {
-    font-size: 21px;
-}
-.v4acp_head .v4title h2::before {
-    left: 0;
-}
-.v4acp_head .v4title h2 {
-}
+
 .pagewidth .fpcc .smuy span {
     font-size: 25px;
 }
@@ -2721,24 +2785,16 @@ table.gallery tr td.details div.ttl {
 .sub-page .col-left {
     padding: 0 20px 0 10px
 }
-.v4acp_head .v4title h2::before {
-    left: 11%;
-    font-size: 22px
-}
+
 .pagewidth .fpcc .smuy span {
     font-size: 20px;
 }
 table.gallery table.fixed tr td .bin.g-b {
     font-size: 12px;
 }
-#LeftPanel {
-    width: 210px;
-}
+
 .pagewidth .box-trustmakers, .pagewidth .banner, .pagewidth #CentralArea {
     padding-left: 0;
-}
-.v4acp_head .v4title h2, .col-left .box-brand h2 {
-    font-size: 21px;
 }
 table.gallery table.fixed span.oriprs, table.gallery table.prices span.oriprs {
     font-size: 12px;
@@ -3122,7 +3178,12 @@ main section .content-right, main section .content-left {
     line-height: 45px
 }
 /* page store */
-  
+     
+table.tb_v4bc tr td {
+    padding: 0 10px;
+}
+
+
 .pagewidth td.gallery {
     margin-bottom: 0;
 }

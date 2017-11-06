@@ -1686,7 +1686,9 @@ table td[class*="col-"], table th[class*="col-"] {
 	padding-left: 10px;
 }
 table.v4midBox {
-	border: 0 !important
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 table.v4acpcont {
 	margin-bottom: 0 !important
@@ -1713,9 +1715,9 @@ table.v4acpcont {
 	font-family: FontAwesome;
 	content: '\f0da';
 	font-size: 12px;
-	color: #FFFFFF;
-	position: absolute;
-	top: 0;
+	color: #3e3042;
+position: absolute;
+top: 8px;
 	left: 10px;
 }
 .v4midBox.v4nfc .v4acp_mid .v4mid .lev1 >li:first-child {
@@ -2701,7 +2703,7 @@ table.v4acpcont .v4title h2:after {
 	right: 0;
 	width: 50px;
 	height: 50px;
-	line-height: 50px;
+	line-height: 33px;
 	content: '+';
 	color: #ffffff;
 	font-weight: bold;

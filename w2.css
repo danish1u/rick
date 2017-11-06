@@ -1691,7 +1691,7 @@ table.v4midBox {
 	border-bottom: 1px solid #ccc;
 }
 table.v4acpcont {
-	margin-bottom: 0 !important
+	margin-bottom: 10 !important
 }
 .v4acp_head .v4accent {
 	padding: 0;
@@ -2084,7 +2084,8 @@ table.gallery tr td.details div.ttl a {
 	transition: 0.3s all ease-in-out;
 }
 table.gallery tr td.details div.ttl a:hover {
-	color: #00b6e8 !important;
+	color: #dca87b!important;
+	    text-decoration: none;
 }
 table.gallery table.fixed tr td .bin.g-b {
 	font-family: 'Rubik', sans-serif !important;
@@ -2192,21 +2193,7 @@ td#CentralArea span.pdmt {
 .ctrlbr {
 	padding: 3px 0;
 }
-.pagewidth td#CentralArea div.v4stabl {
-	display: none;
-	float: right;
-	padding-right: 10px;
-	position: relative;
-	right: 0px;
-	text-align: right;
-	top: 15px;
-	width: 500px;
-	font-size: 13px;
-	color: #000000 !important;
-}
-.pagewidth td#CentralArea div.v4stabl a {
-	color: #000 !important;
-}
+
 .pagewidth .olp-mr {
 	display: none;
 }
@@ -2387,6 +2374,21 @@ table.gallery table.fixed tr td .bin.g-b {
 }
 
 @media(width: 768px) {
+	.pagewidth td#CentralArea div.v4stabl {
+		display: none;
+		float: right;
+		padding-right: 10px;
+		position: relative;
+		right: 0px;
+		text-align: right;
+		top: 15px;
+		width: 500px;
+		font-size: 13px;
+		color: #000000 !important;
+	}
+	.pagewidth td#CentralArea div.v4stabl a {
+		color: #000 !important;
+	}
 .menu-header ul a {
 	font-size: 13px
 }

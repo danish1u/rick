@@ -96,7 +96,7 @@ td#CentralArea div.fpcc {
     font-weight: bolder;
     height: 36px;
     line-height: 36px;
-    background: #000000;
+    background: #3e3042;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -115,7 +115,9 @@ td#CentralArea div.fpcc div {
     font-size: 18px!important;
     display: block;
     text-indent: 9px;
+        line-height: 35px;
 }
+
 /*
 -----------------------------------------------------------------------------------
 ESS Left column
@@ -187,7 +189,7 @@ ESS Left column
 #LeftPanel .lcat ul li a:hover,
 #LeftPanel .oc ul li a:hover {
     text-decoration: none;
-    background-color: #EEF8FF;
+    color: #dca87b;
 }
 #LeftPanel .lcat ul li,
 #LeftPanel .lcat ul li span {
@@ -261,7 +263,7 @@ float: right;
     height: 0px;
 }
 .r3_cm {
-    margin-top: -24px;
+    margin-top: -6px;
 }
 .cmpBr {
     display: none;
@@ -442,7 +444,7 @@ table.gallery table.fixed tr td .bin.g-b {
     text-align: right;
     display: block;
     font-weight: normal;
-    color: #c3b0c6;
+    color: #dca87b;
     font-size: 14px;
 }
 table.fixed > tbody > tr > td:nth-child(1), table.fixed > tbody > tr > td:nth-child(2) {

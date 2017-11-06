@@ -470,6 +470,9 @@ div.itemseparator {
 .pagewidth .grid td.left {
     border: 0;
 }
+#v4-13{
+  float: right !important
+}
 #v4-14{
   float: right !important;
 }

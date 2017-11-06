@@ -1854,7 +1854,7 @@ top: 8px;
 	padding: 0px 10px 0 15px
 }
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
-	display: none;
+	/*display: none;*/
 }
 .cmsg {
 	display: none;
@@ -2186,9 +2186,9 @@ div.itemseparator {
 	padding: 0;
 }
 td#CentralArea span.pdmt {
-	margin-top: -38px;
+	/*margin-top: -38px;
 	padding-right: 0px;
-	float: right;
+	float: right;*/
 }
 .ctrlbr {
 	padding: 3px 0;

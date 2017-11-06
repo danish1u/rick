@@ -2375,7 +2375,7 @@ table.gallery table.fixed tr td .bin.g-b {
 
 @media(width: 768px) {
 	.pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
-		display: none;
+		display: none !important;
 	}
 	.pagewidth td#CentralArea div.v4stabl {
 		display: none;

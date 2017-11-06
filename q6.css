@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@charset "utf-8";
+/* CSS Document */
+#CentralArea {
+	font-family: 'Open Sans', sans-serif !important;
+	display: block;
+	border: none;
+}
+td.r3_c {
+	display: block;
+	width: 100%;
+}
+table.gallery table.fixed tbody tr td img {
+	margin-top: 6px;
+}
+#CentralArea td.r3_c a {
+	color: #231f20;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+	text-transform: none;
+}
+.details .ttl a {
+	margin-bottom: 0;
+	display: block;
+}
+table.gallery div.subtitle {
+	display: none;
+}
+.grid {
+	width: 100%;
+	float: none;
+}
+td.gallery.er {
+	display: none !important;
+}
+td.details {
+	padding: 0 20px;
+}
+div.bpmsg {
+	clear: both;
+	margin: -30px auto 0;
+	float: left;
+	padding: 0 0 5px 10px;
+}
+.bpmsg .title {
+	color: #000;
+	font-family: Arial;
+	font-size: small;
+	font-weight: bold;
+}
+table.gallery table.fixed span.oriprs, table.gallery table.prices span.oriprs, table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
+	display: none;
+}
+td.gallery {
+	display: block;
+	float: left;
+	margin: 0;
+}
+/*  GROUPING  */
+td.gallery {
+	width: 31.4% !important;
+}
+.grid td.gallery {
+	margin-left: 5px;
+}
+.grid td.gallery:first-child {
+	margin-left: 0;
+}
+.grid td.gallery:nth-child(2) {
+	margin-left: 20px;
+}
+.grid td.gallery:nth-child(3) {
+	display: block;
+	margin-left: 20px;
+}
+table.gallery table.fixed div.time2 {
+	display: block;
+	font-size: 14px;
+	margin: 10px 0;
+	color: #d61a21;
+	text-transform: uppercase;
+}
+table.gallery tr td.details table.fixed img {
+	margin-top: 6px;
+}
+
+@media only screen and (max-width: 1200px) {
+.pagecontainer table tr td table:nth-child(2) {
+	width: 100%;
+	max-width: 100%;
+}
+.grid td.gallery:first-child {
+	margin-left: 10px;
+}
+.grid td.gallery:nth-child(2) {
+	margin-left: 10px;
+}
+.grid td.gallery:nth-child(3) {
+	margin-left: 5px;
+}
+td.gallery {
+	width: 32% !important;
+	margin-left: 5px !important;
+}
+.grid td.gallery {
+}
+}
+
+@media only screen and (max-width: 991px) {
+.grid td.gallery:first-child {
+	margin-left: 5px;
+}
+#LeftPanel, #LeftPanel .v4acpcont .pst-left {
+	display: none;
+}
+.grid {
+	margin: 0;
+}
+.pst-customhome {
+	padding: 0 10px !important;
+}
+.g-b {
+	font-size: 14px;
+}
+#CentralArea td.gallery > table.gallery {
+	height: 390px;
+	min-height: 390px;
+}
+.grid td.gallery {
+}
+table.gallery table.fixed tr td .bin.g-b {
+	font-size: 14px;
+}
+table.gallery tr td.details div.ttl a {
+	font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+table.gallery div.ttl {
+	height: 38px;
+}
+td#CentralArea {
+	margin: 10px;
+	padding: 0;
+}
+td.gallery {
+	width: 100% !important;
+	margin-left: 0 !important;
+}
+#CentralArea td.gallery > table.gallery {
+	margin-top: 0;
+}
+.cmpBr {
+	height: 0px;
+}
+.pst-customhome {
+	padding: 0 !important;
+	margin: 0 auto !important;
+}
+.grid {
+	margin: 0px;
+	width: 100%;
+}
+.grid td.gallery:nth-child(2) {
+	margin-left: 0;
+}
+.grid td.gallery {
+	margin-top: 10px;
+}
+td.details {
+	padding: 10px;
+}
+.pagewidth td.gallery {
+	padding: 0 !important;
+}
+.grid td.gallery:first-child {
+	margin-left: 0px;
+}
+.grid td.gallery {
+	margin-left: 0;
+}
+.grid td.gallery:nth-child(3) {
+	margin-left: 0px;
+}
+.pagewidth .grid td.left {
+	margin-left: 0px;
+}
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+td.gallery {
+	margin: 1% 0 10px 0% !important;
+}
+td.gallery {
+	width: 100%;
+}
+}
+ @-moz-document url-prefix() {
+ tbody.row {
+display:inherit !important;
+width:100%;
+margin:0;
+}
+}
+table.pgbc a {
+	color: #1b1b1b !important;
+}
+/*LANDING PAGE STARTS*/
+.pst-customhome {
+	margin-top: 0;
+}
+.pst-customhome .ctrlbr {
+	display: none !important;
+	border: none;
+	text-align: center;
+	border-bottom: 1px solid #dddddd;
+}
+td#CentralArea span.pdmt {
+	/*float: none;*/
+}
+.pst-customhome .dynpg {
+	display: none;
+}
+.pst-customhome span.pdmt .cur {
+	font-size: 16px;
+}
+.pst-customhome span.pdmt .label {
+	font-size: 1.25em;
+	color: #404042;
+	font-weight: 600;
+}

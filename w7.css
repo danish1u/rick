@@ -1853,7 +1853,8 @@ top: 8px;
 	width: 100%;
 	padding: 0px 10px 0 15px
 }
-.pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
+
+{
 	/*display: none;*/
 }
 .cmsg {
@@ -2499,9 +2500,7 @@ table.gallery tr td.details table.fixed img {
 @media(max-width: 767px) {
 
 /* Make the Magic Happen */
-.pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
-	display: none !important;
-}
+
 .listing-right-content {
 	padding-top: 25px;
 }

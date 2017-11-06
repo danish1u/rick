@@ -263,7 +263,7 @@ float: right;
     height: 0px;
 }
 .r3_cm {
-    margin-top: -6px;
+    margin-top: -27px;
 }
 .cmpBr {
     display: none;
@@ -469,4 +469,7 @@ div.itemseparator {
 }
 .pagewidth .grid td.left {
     border: 0;
+}
+.pdmt g-novisited{
+  float: right !important;
 }

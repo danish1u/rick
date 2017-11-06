@@ -2374,9 +2374,7 @@ table.gallery table.fixed tr td .bin.g-b {
 }
 
 @media(width: 768px) {
-	.pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
-		display: none !important;
-	}
+	
 	.pagewidth td#CentralArea div.v4stabl {
 		display: none;
 		float: right;
@@ -2501,7 +2499,9 @@ table.gallery tr td.details table.fixed img {
 @media(max-width: 767px) {
 
 /* Make the Magic Happen */
-
+.pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
+	display: none !important;
+}
 .listing-right-content {
 	padding-top: 25px;
 }

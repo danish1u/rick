@@ -385,7 +385,7 @@ float: right;
     padding-top: 0;
     margin-bottom: 4px;
     background-color: #FFFFFF;
-   /* padding: 10px;*/
+  /*  padding: 10px;*/
 }
 
 .pagewidth table.gallery {
@@ -471,10 +471,8 @@ div.itemseparator {
     border: 0;
 }
 #v4-13{
-  float: right !important
-}
-#v4-14{
   float: right !important;
+  padding-top: 5px;
 }
 @media(max-width: 767px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {

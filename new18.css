@@ -483,6 +483,12 @@ div.itemseparator {
   padding-top: 5px;
 padding-right: 13px !important;
 }
+.pagewidth .stBadge td{
+  display: none;
+}
+.whiter-rcp .whiter-s_nf .whiter-w {
+    display: none;
+}
 @media(max-width: 767px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
 	display: none !important;

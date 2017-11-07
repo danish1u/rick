@@ -376,6 +376,8 @@ float: right;
 }
 #v4-14{
   float: right;
+  padding-top: 4px;
+  padding-right: 13px !important;
 }
 
 /*****------------gallery--------****/

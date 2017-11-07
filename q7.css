@@ -68,11 +68,11 @@ td.gallery {
 	margin-left: 0;
 }
 .grid td.gallery:nth-child(2) {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 .grid td.gallery:nth-child(3) {
 	display: block;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 table.gallery table.fixed div.time2 {
 	display: block;
@@ -219,7 +219,7 @@ table.pgbc a {
 	border-bottom: 1px solid #dddddd;
 }
 td#CentralArea span.pdmt {
-	/*float: none;*/
+	float: none;
 }
 .pst-customhome .dynpg {
 	display: none;

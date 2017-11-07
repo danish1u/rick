@@ -218,6 +218,9 @@ table.pgbc a {
 	text-align: center;
 	border-bottom: 1px solid #dddddd;
 }
+td#CentralArea span.pdmt {
+	float: none;
+}
 .pst-customhome .dynpg {
 	display: none;
 }

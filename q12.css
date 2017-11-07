@@ -59,10 +59,10 @@ td.gallery {
 }
 /*  GROUPING  */
 td.gallery {
-	width: 31.4% !important;
+	width: 33% !important;
 }
 .grid td.gallery {
-	margin-left: 5px;
+	margin-left: 4px;
 }
 .grid td.gallery:first-child {
 	margin-left: 0;

@@ -59,10 +59,10 @@ td.gallery {
 }
 /*  GROUPING  */
 td.gallery {
-	width: 33% !important;
+	width: 31.4% !important;
 }
 .grid td.gallery {
-	margin-left: 4px;
+	margin-left: 5px;
 }
 .grid td.gallery:first-child {
 	margin-left: 0;
@@ -217,9 +217,6 @@ table.pgbc a {
 	border: none;
 	text-align: center;
 	border-bottom: 1px solid #dddddd;
-}
-td#CentralArea span.pdmt {
-	float: none;
 }
 .pst-customhome .dynpg {
 	display: none;

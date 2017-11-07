@@ -263,7 +263,7 @@ float: right;
     height: 0px;
 }
 .r3_cm {
-    margin-top: -27px;
+    margin-top: -25px;
 }
 .cmpBr {
     display: none;
@@ -489,5 +489,14 @@ padding-right: 13px !important;
 }
 #v4-13{
   float: none !important;
+}
+#v4-14{
+  float: none !important;
+}
+.newsletter {
+    display: none;
+}
+.fpcc .smuy {
+    font-size: 11px;
 }
 }

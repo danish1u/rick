@@ -1975,7 +1975,7 @@ top: 8px;
 	height: 15px;
 	margin: 0;
 	font-size: 0px;
-	color: transparent;
+color: transparent !important;
 }
 .dynpg .next img.pic {
 	display: none;

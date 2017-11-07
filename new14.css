@@ -481,6 +481,7 @@ div.itemseparator {
 #v4-13{
   float: right !important;
   padding-top: 5px;
+padding-right: 13px !important;
 }
 @media(max-width: 767px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {

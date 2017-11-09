@@ -60,7 +60,7 @@ text-align:center;
     /*Style for menu links*/
     .dima a {
 display: block;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
     font-family: "Playfair Display";
     background: #000;
     text-decoration: none;

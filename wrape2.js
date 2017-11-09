@@ -1,5 +1,4 @@
-
-$( ".pageconjQuery(document).ready(function(){
+jQuery(document).ready(function(){
 	var $V = jQuery.noConflict();		
 	$V(".pagecontainer > table:eq(1)").addClass("pst-background");
 	$V(".pagecontainer > table:eq(1) tr:first td:first").addClass("pst-background2");
@@ -23,13 +22,7 @@ $( ".pageconjQuery(document).ready(function(){
 	
 	//Footer
 	var d = new Date();
-	var footer = '\n\r<div class="footer">
-    <div class="browse-logos">
-      <ul>
-        <li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/1.png" width="255px;" alt=""></a></li>
-        <li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/2.png" width="255px;" alt=""></a></li>
-        <li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/3.png" width="255px;"alt=""></a></li>
-        <li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/4.png" width="255px;"alt=""></a></li><li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/5.png"width="255px;" alt=""></a></li></ul></div><div class="all-rights-reserve">© All rights reserved to Asteria diamonds</div></div>';
+	var footer = '\n\r<div class="footer"><div class="browse-logos"><ul><li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/1.png" width="255px;" alt=""></a></li><li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/2.png" width="255px;" alt=""></a></li><li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/3.png" width="255px;"alt=""></a></li><li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/4.png" width="255px;"alt=""></a></li><li><a href="#"><img src="https://raw.githubusercontent.com/danish1u/rick/master/imges/5.png"width="255px;" alt=""></a></li></ul></div><div class="all-rights-reserve">© All rights reserved to Asteria diamonds</div></div>';
 	if(pageName != "PageAboutMeViewStore") {
 		if($V(".addfooter").length > 0) {
 			$V(".addfooter").after(footer);			
@@ -66,4 +59,3 @@ $V('.pst-buyitnow', this).contents().wrap($Vlink);
 
 	
 });
-tainer table tr td table tr:nth-child(2)" ).wrap( "<div class='new'></div>" );

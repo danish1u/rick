@@ -1,0 +1,304 @@
+.pst-header-search .searchbox {
+      float: right;
+      height: 50px;
+      width: 60%;
+      font-size: 12px;
+      color: #1d1d1d;
+      font-weight: normal;
+      border: 1px solid #ccc;
+      border-radius: 22px;
+      margin-right: 90px;
+      background: #fff;
+    }
+    .pst-header-search .searchbox .v4sbox {
+      background-color: transparent;
+      line-height: 50px;
+      height: 50px;
+      float: left;
+      width: 90%;
+      border: none;
+      text-align: left;
+      text-indent: 17px;
+      outline: none !important;
+    }
+    .rectangle-2 {
+      min-height: 54px;
+      max-width: 1373px;
+      background-color: #000000;
+      margin: auto;
+    }
+    @media(max-width: 769px) {
+
+      .pst-header-search .searchbox {
+        width: 100%;
+        margin-top: 10px;
+        float: none;
+        margin-right: 0px;
+      }
+      .head-new img {
+        display: block;
+        margin: auto;
+        padding-bottom: 21px;
+      }
+      .head-new {
+        height: auto;
+      }
+    }
+    /*Strip the ul of padding and list styling*/
+    #menu {
+      list-style-type: none;
+text-align:center;
+    
+    }
+    /*Create a horizontal list with spacing*/
+    .dima {
+    display: inline-block;
+    margin-right: 1px;
+    padding-right: 64px;
+    line-height: 54px;
+    }
+    /*Style for menu links*/
+    .dima a {
+display: block;
+    color: #FFFFFF;
+    font-family: "Playfair Display";
+    background: #000;
+    text-decoration: none;
+    }
+    /*Hover state for top level links*/
+    .dima a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+    /*Style 'show menu' label button and hide it by default*/
+    .show-menu {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-decoration: none;
+      color: #fff;
+      background: #19c589;
+      text-align: center;
+      padding: 10px 0;
+      display: none;
+    }
+    input[type=checkbox]:before {
+      content: "\f039";
+      font-family: FontAwesome;
+      color: #ffffff;
+      font-size: 21px;
+      position: absolute;
+      left: 12px;
+      float: left;
+line-height:54px;
+    }
+    input[type=checkbox]:checked:before {
+      font-family: FontAwesome;
+      content: url("https://raw.githubusercontent.com/danish1u/rick/master/cx.png");
+      /* content: "\f00d"; */
+      padding-right: 0.5em;
+      position: absolute;
+      left: 12px;
+      float: left;
+    margin-top: 15px;
+    }
+    /*Hide checkbox*/
+    /*Show menu when invisible checkbox is checked*/
+    input[type=checkbox]:checked~#menu {
+      display: block;
+    }
+    input[type=checkbox] {
+      line-height: normal;
+      width: 0;
+      height: 0;
+      margin: 0;
+      border: 0 none;
+      padding: 0;
+    }
+    /*Responsive Styles*/
+    @media screen and (max-width: 768px) {
+      /*Make dropdown links appear inline*/
+      .rectangle-2 {
+        margin-top: 10px
+      }
+      #menu {
+        
+        display: none;
+       
+        background: #000;
+        text-align: left;
+        margin-top: 44px;
+      }
+      /*Create vertical spacing*/
+      .dima {
+        margin-bottom: 1px;
+      }
+      /*Make all menu links full width*/
+      #menu .dima,.dima a {
+        width: 100%;
+      }
+      .dima a {
+        padding-left: 0px;
+      }
+      /*Display 'show menu' link*/
+      .show-menu {
+        display: block;
+      }
+      .pink-text {
+    padding: 42px;
+    background: #f8f7f3;
+    position: relative !important;
+margin: 0px !important;
+    z-index: -9;
+}
+.yellow-text {
+    margin-top: 67px;
+    width: 228px;
+      position: relative !important;
+      margin: 0px auto 0px !important;
+      padding-top: 93px;
+      padding-bottom: 35px;
+}
+
+.rectangle-5 {
+
+     margin-top: 0px !important;
+    padding: 10px !important;
+    margin-bottom: 0px !important;
+}
+.browse-color ul li {
+    padding: 17px !important;
+}
+    }
+    .pink-banner {
+	max-width: 1372px;
+  margin: auto;
+margin-top:-24px;
+
+}
+.pink-text {
+position: absolute;
+  margin-top: 70px;
+  margin-left: 139px;
+}
+.yellow-banner {
+  /*height: 632px;*/
+  max-width: 1296px;
+margin: auto;
+    margin-top: -78px;
+}
+.yellow-text {
+  position: absolute;
+  margin-left: 711px;
+  margin-top: 119px;
+}
+.browse-catagories ul{
+  text-align: center;
+  padding-left: 0;
+}
+.browse-catagories ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 23px;
+
+}
+.browse-color ul{
+  text-align: center;
+  padding-left: 0;
+}
+.browse-color ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 47px;
+
+}
+.browse-logos ul{
+  text-align: center;
+  padding-left: 0;
+}
+.browse-logos ul li{
+  list-style: none;
+  display: inline-block;
+
+}
+.browse-colored-diamo {
+     color: #000000;
+     	font-family: "Playfair Display";
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-align: center;
+}
+.wholesale-banner {
+background: url('http://asteriadiamonds.com/ebay-template/store/WholesaleBanner.jpg');
+    max-width: 1372px;
+    padding: 40px;
+    background-position: center;
+}
+
+.rectangle-5 {
+  max-width: 803px;
+  background-color: rgba(255,255,255,0.57);
+  display: block;
+  margin: auto;
+      margin-top: 71px;
+          padding: 68px;
+              margin-bottom: 21px;
+}
+.why-asteria-diamonds {
+  color: #000000;
+  font-family: "Playfair Display";
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 20px;
+  text-align: center;
+
+}
+
+  .at-asteria-diamonds {
+
+  	color: #000000;
+  	font-family: Roboto;
+  	font-size: 15px;
+  	font-weight: 300;
+  	line-height: 25px;
+  	text-align: center;
+    letter-spacing: 1px;
+  }
+  .line {
+    box-sizing:
+    border-box;
+    height: 2px;
+    max-width: 165px;
+    border: 1px solid #979797;
+    margin: 0 auto 22px;
+  }
+  .free-world-shipping {
+	height: 38px;
+	width: 151px;
+	color: #3E3142;
+	font-family: Times;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 19px;
+	text-align: center;
+      text-transform: uppercase;
+}
+.present-yourself-wit {
+	height: 38px;
+	width: 151px;
+	color: #757575;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 19px;
+	text-align: center;
+}
+.all-rights-reserve {
+	height: 70px;
+
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 15px;
+	letter-spacing: 3px;
+	line-height: 20px;
+	text-align: center;
+}

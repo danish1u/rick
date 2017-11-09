@@ -381,9 +381,9 @@ float: right;
 }
 
 /*****------------gallery--------****/
-.pagecontainer table tr td table:nth-child(2) {
+.pagecontainer table tr td table tr:nth-child(2) {
     display: table;
-    margin: 15px auto 0;
+    margin: auto;
     padding: 0 0px;
     text-align: left;
     width: 100%;

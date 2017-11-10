@@ -2664,7 +2664,7 @@ td#LeftPanel + td +td {
 	margin-top: 0;
 }
 td#LeftPanel {
-	display: inline-block;
+	display: none;
 	width: 100% !important;
 	padding: 0 20px;
 	margin-top: 0;

@@ -178,7 +178,7 @@ ESS Left column
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    border-bottom: 1px solid #e6e6e6;
+   /* border-bottom: 1px solid #e6e6e6;*/
 }
 #LeftPanel .lcat ul li a,
 #LeftPanel .oc ul li a,

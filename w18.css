@@ -2324,7 +2324,7 @@ td#CentralArea div.dynpg .m .pager {
 /* End style store */
 @media only screen and (max-width: 1200px) {
 .pagecontainer table tr td table:nth-child(2) {
-	max-width: 950px !important;
+	max-width: 100% !important;
 }
 table.gallery tr td.details div.ttl {
 	height: 37px;
@@ -2356,7 +2356,7 @@ table.gallery table.fixed tr td .bin.g-b {
 
 @media only screen and (max-width: 991px) {
 .pagecontainer table tr td table:nth-child(2) {
-	max-width: 750px !important;
+	max-width: 100% !important;
 }
 .pagewidth table.gallery {
 	margin-bottom: 0 !important

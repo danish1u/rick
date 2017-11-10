@@ -251,7 +251,7 @@ float: right;
 }
 .v4stabl a{
   color: #000 !important;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 .v4mid ul li a{
   color: #000000;
@@ -273,19 +273,18 @@ float: right;
     display: none;
 }
 .pagewidth .fpcc .smuy span.countClass {
-    font-family: 'Rubik', sans-serif !important;
+        font-family: "Playfair Display"!important;
     color: #000;
     font-size: 1.5em;
-    font-weight: bolder;
 }
 .pagewidth .fpcc .smuy span.matchClass {
-    font-family: 'Rubik', sans-serif !important;
+    font-family: "Playfair Display" !important;
     font-weight: normal;
     color: #000;
     font-size: 1em;
 }
 .pagewidth .fpcc .smuy span.keywordClass {
-    font-family: 'Rubik', sans-serif !important;
+    font-family: "Playfair Display" !important;
     font-family: inherit;
     font-weight: normal;
     color: #000;
@@ -494,9 +493,12 @@ padding-right: 13px !important;
 .whiter-rcp .whiter-s_nf .whiter-w {
     display: none;
 }
-@media(max-width: 767px) {
+@media(max-width: 768px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
 	display: none !important;
+}
+.pagewidth div.r3_cm {
+    padding: 6px 10px 0;
 }
 #v4-13{
   float: none !important;

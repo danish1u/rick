@@ -195,10 +195,12 @@ ESS Left column
     text-decoration: none;
     color: #dca87b;
 }
-#LeftPanel .lcat ul li,
-#LeftPanel .lcat ul li span {
-    font-weight: bolder;
-    color: #dca87b;
+#LeftPanel .lcat ul li,#LeftPanel .lcat ul li span {
+   color: #000000;
+    font-family: "Playfair Display"!important;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: normal;
 }
 #LeftPanel .lcat .cnt {
     display: none;
@@ -222,18 +224,21 @@ ESS Left column
     padding: 5px 10px;
 }
 #LeftPanel .lcat .lev1 li a {
-    color: #000000;
-    font-weight: bolder;
+       color: #000000;
+    font-family: "Playfair Display"!important;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: normal;
 }
 #LeftPanel .lcat .lev2 {} #LeftPanel .lcat .lev2 li {
         text-indent: 8px;
 }
 #LeftPanel .lcat .lev2 li a {
-    color: #464646;
-    font-size: 11px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+        color: #000000;
+    font-size: 14px;
     font-weight: normal;
+    font-family: "Playfair Display"!important;
+    line-height: 17px;
 }
 .r3_t i, .r3_bl i {
     display: none;

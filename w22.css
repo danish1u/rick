@@ -2678,7 +2678,6 @@ td#LeftPanel {
 #LeftPanel .v4acpcont table, #LeftPanel .v4acpcont tbody, #LeftPanel .v4acpcont tr, #LeftPanel .v4acpcont td {
 	width: 100%;
 	display: block;
-	    background: black !important;
 }
 table.v4acpcont .v4title h2 {
 	text-indent: 0;
@@ -2695,6 +2694,7 @@ table.v4acp tr.v4acp_head td.v4title {
 	font-weight: bold;
 	position: relative;
 	padding: 0;
+	    background: black;
 }
 table.v4acpcont .v4title h2:before {
 	padding-left: 0px;

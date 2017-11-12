@@ -136,13 +136,16 @@ ESS Left column
     margin: 0 0 15px;
 }
 #LeftPanel .v4midBox {
-    border: 1px solid #e6e6e6;
+    border: 0px solid #e6e6e6;
     border-top: 0;
     background: #fff;
 }
 #LeftPanel .v4mid {
     padding: 0;
     background: none;
+}
+#LeftPanel td.v4title * {
+    display: none;
 }
 #LeftPanel .v4nl {
     padding: 10px;
@@ -501,6 +504,9 @@ padding-right: 13px !important;
 @media(max-width: 768px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
 	display: none !important;
+}
+	#LeftPanel td.v4title * {
+    display: block;
 }
 .pagewidth div.r3_cm {
     padding: 6px 10px 0;

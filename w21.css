@@ -2677,7 +2677,8 @@ td#LeftPanel {
 }
 #LeftPanel .v4acpcont table, #LeftPanel .v4acpcont tbody, #LeftPanel .v4acpcont tr, #LeftPanel .v4acpcont td {
 	width: 100%;
-	display: block
+	display: block;
+	    background: black !important;
 }
 table.v4acpcont .v4title h2 {
 	text-indent: 0;

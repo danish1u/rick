@@ -522,3 +522,105 @@ padding-right: 13px !important;
     font-size: 11px;
 }
 }
+  .message2 {
+    display: none;
+    max-width: 1375px;
+
+        text-align: -webkit-center;
+  }
+
+@media (max-width: 768px) {
+    .message2  {
+      display: block;
+
+    }
+  }
+  .messagea {
+    padding-top: 75px;
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .messagea h2 {
+    text-align: center;
+    font-family: "Playfair Display" !important;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+  }
+
+  .messageb {
+    padding: 10px;
+    background-color: #F8F8F8;
+    width: 250px;
+  }
+
+  .messagea p {
+    text-align: left;
+    color: #3E3142;
+    font-family: Roboto !important;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-left: 30px;
+  }
+
+  .Leaveb a {
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #000000 !important;
+    color: #fff !important;
+    text-decoration: none;
+    font-family: "Playfair Display" !important;
+    letter-spacing: 1px;
+  }
+
+
+  .submita {
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+    display: block;
+
+  }
+
+  .submita h2 {
+    text-align: center;
+    font-family: "Playfair Display" !important;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+  }
+
+  .messageb {
+    padding: 10px;
+    background-color: #F8F8F8;
+  }
+
+  .submita p {
+    text-align: left;
+    color: #3E3142;
+    font-family: Roboto !important;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-left: 30px;
+  }
+
+  .Leaveq a {
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 10px 78px;
+    background-color: #000000 !important;
+    color: #fff !important;
+    text-decoration: none;
+    font-family: "Playfair Display" !important;
+    letter-spacing: 1px;
+  }
+.browse-logos{
+  margin-top: 20px;
+}

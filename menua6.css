@@ -228,7 +228,7 @@ display: none;
   	    width: 100%;
   	height: 52px;
   	border: none !important;
-  	background: none;
+  	background: #000;
 	      display: block;
     margin-top: -12px;
   }
@@ -284,8 +284,8 @@ display: none;
   }
   #cssmenu #menu-button {
   	display: block;
-  	color: #000;
-  	background-color: #fff;
+  	color: #fff;
+  	background-color: #fff0;
   	cursor: pointer;
   	font-size: 12px;
   	text-transform: uppercase;
@@ -301,8 +301,8 @@ display: none;
   	display: block;
   	height: 8px;
   	width: 25px;
-  	border-top: 2px solid #000;
-  	border-bottom: 2px solid #000;
+  	border-top: 2px solid #fff;
+  	border-bottom: 2px solid #fff;
   	content: '';
   }
   #cssmenu #menu-button:before {
@@ -312,20 +312,20 @@ display: none;
   	display: block;
   	height: 2px;
   	width: 25px;
-  	background: #000;
+  	background: #fff;
   	content: '';
   }
   #cssmenu #menu-button.menu-opened {
-      background-color: #fff !important;
+      background-color: #fff0 !important;
   	border-bottom: none;
-  	border-bottom: 1px solid #FFFFFF;
+  	/*border-bottom: 1px solid #FFFFFF;*/
   }
   #cssmenu #menu-button.menu-opened:after {
   	top: 26px;
   	border: 0;
   	height: 2px;
   	width: 25px;
-  	background: #000;
+  	background: #fff;
   	-webkit-transform: rotate(45deg);
   	-moz-transform: rotate(45deg);
   	-ms-transform: rotate(45deg);
@@ -334,7 +334,7 @@ display: none;
   }
   #cssmenu #menu-button.menu-opened:before {
   	top: 26px;
-  	background: #000;
+  	background: #fff;
   	width: 25px;
   	-webkit-transform: rotate(-45deg);
   	-moz-transform: rotate(-45deg);

@@ -310,7 +310,7 @@ display: none;
   	content: '';
   }
   #cssmenu #menu-button.menu-opened {
-      background-color: #fff0 !important;
+      background-color: #fff !important;
   	border-bottom: none;
   	border-bottom: 1px solid #FFFFFF;
   }

@@ -24,9 +24,15 @@
     .rectangle-2 {
       min-height: 54px;
       max-width: 1373px;
-      background-color: #000000;
+      background-color: #fff0;
       margin: auto;
     }
+  @media(max-width: 768px) {
+
+      table.tb_v4bc {
+    display: none;
+}
+      }
     @media(max-width: 769px) {
 
       .pst-header-search .searchbox {

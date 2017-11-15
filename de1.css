@@ -167,6 +167,7 @@ color: #aba9a9!important;
 }
 .head-new{
     background: white; 
+	display: none;
 }
 div.bpmsg {
     clear: both;

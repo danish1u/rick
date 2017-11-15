@@ -213,7 +213,8 @@ margin: auto;
 .browse-color ul li{
   list-style: none;
   display: inline-block;
-  padding: 47px;
+  padding: 30px;
+  vertical-align: -webkit-baseline-middle;
 
 }
 .browse-logos ul{
@@ -279,7 +280,7 @@ background: url('http://asteriadiamonds.com/ebay-template/store/WholesaleBanner.
   }
   .free-world-shipping {
 	height: 38px;
-	width: 151px;
+	width: 182px;
 	color: #3E3142;
 	font-family: Times;
 	font-size: 14px;
@@ -290,7 +291,7 @@ background: url('http://asteriadiamonds.com/ebay-template/store/WholesaleBanner.
 }
 .present-yourself-wit {
 	height: 38px;
-	width: 151px;
+	width: 182px;
 	color: #757575;
 	font-family: Roboto;
 	font-size: 15px;

@@ -1,0 +1,216 @@
+
+#LeftPanel td.v4title {
+width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+ td.v4title {
+  position: relative;
+}
+#LeftPanel td.v4title::after {
+  position: absolute;
+  content: " +";
+  bottom: 5px;
+  right: 15px;
+}
+body{
+background:none!important;
+
+}
+    @media screen and (max-width: 1600px) {
+      /*Make dropdown links appear inline*/
+      input[type=checkbox]:before {
+display: none;
+      }
+      input[type=checkbox]:checked:before {
+display: none;
+      }
+.dima {
+    margin-right: -13px !important;
+}
+}
+ @media screen and (max-width: 1200px) {
+ .browse-catagories ul li {
+    padding: 22px !important;
+      }
+}
+    @media screen and (max-width: 1024px) {
+      /*Make dropdown links appear inline*/
+      .pink-text {
+          position: absolute;
+          margin-top: 20px;
+          margin-left: 32px;
+      }
+      .yellow-text {
+        position: absolute;
+        margin-left: 512px;
+        margin-top: 118px;
+    }
+ 
+}
+      @media screen and (max-width: 768px) {
+        /*Make dropdown links appear inline*/
+        input[type=checkbox]:before {
+  display: block;
+        }
+        input[type=checkbox]:checked:before {
+  display: block;
+        }
+    .browse-catagories ul li {
+    padding: 2px !important;;
+} 
+}
+#gh-eb-u-o {
+    left: 146px;
+}
+.pagewidth .stBadge {
+    margin-top: 7px;
+    min-width: 100px;
+    display: none;
+}
+#glbfooter {
+    border-top: none;
+    padding-left: 0;
+    padding-right: 0;
+    display: none;
+}
+#gh-ug {
+    font-size: 12px;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 5px 17px 6px 10px;
+    border-width: 0;
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+}
+div.v4sem {
+    width: 100%;
+    text-align: right;
+    padding: 1px 2px;
+    margin-bottom: 9px;
+    display: none;
+}
+div.v4bc {
+    margin: 0;
+    padding: 5px 0;
+    position: absolute;
+    margin-top: 227px;
+    left: 13%;
+	font-family: "Playfair Display" !important;
+    z-index: -1;
+}
+div.v4bc ul li a{
+
+color: #aba9a9!important;
+    font-family: "Playfair Display" !important;
+    font-size: 12px !important;
+}
+div.v4bc ul li h1{
+
+color: #aba9a9!important;
+    font-family: "Playfair Display" !important;
+    font-size: 12px !important;
+}
+#gh {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+#gh-eb {
+    position: absolute;
+    top: 1px;
+    right: 152px;
+    z-index: 99999;
+}
+#gh-topl {
+    margin-top: 1px;
+    text-align: left;
+    margin-left: 141px;
+}
+#gh-top, #gh-gb {
+    background-color: transparent;
+    border-bottom: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    box-sizing: initial;
+    margin: auto;
+    display: block;
+}
+.pink-banner {
+    margin-top: -40px;
+}
+.gh-tbl {
+    display: none;
+}
+    .head-new {
+      background-image: url('https://asteriadiamonds.com/ebay-template/store/menu-bg.jpg');
+      max-width: 1375px;
+      margin: auto;
+      padding-top: 44px;
+      min-height: 156px;
+    }
+    .head-new img {
+      display: block;
+      margin: auto;
+    }
+@media (max-width: 767px) {
+#gh-top, #gh-gb {
+
+    display: none;
+}
+.head-new{
+    background: white; 
+}
+div.bpmsg {
+    clear: both;
+    margin: -30px auto 0;
+    float: left;
+    padding: 0 0 5px 10px;
+    display: none;
+}
+  }
+.drop{
+display:none;
+
+}
+.pst-header-search .searchbox .btn-search {
+    width: 13%;
+    height: 50px;
+    border: none;
+    float: right;
+    color: #eae9e9 !important;
+    font-size: 18px;
+    border-left: 0;
+    text-align: center;
+    background: none;
+    display: none;
+    outline: none;
+} 
+@media (max-width: 768px) {
+.pst-header-search .searchbox .btn-search {
+
+    display: block;
+}
+.drop{
+display:block;
+
+}
+.drop1{
+display:none;
+
+}
+
+.pst-header-search .searchbox {
+    
+    border: 1px solid #eae9e9;
+    border-radius: 0px; 
+      width: 89%;
+}
+}

@@ -418,19 +418,8 @@ display: none;
   }
   /* HEADER SEARCH STARTS */
   .pst-header-search {
-  margin-top: 25px;
   }
-  .pst-header-search .searchbox {
-  float: right;
-  height: 50px;
-  width: 100%;
-  font-size: 12px;
-  color: #1d1d1d;
-  font-weight: normal;
-  border: 1px solid #393318;
-  border-radius: 22px;
-  margin-right: 10px;
-  }
+
   .pst-header-search .searchbox .v4sbox {
   background-color: transparent;
   line-height: 50px;

@@ -548,7 +548,7 @@ box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
   }
   @media screen and (max-width: 1000px) {
   .pst-header-search {
-  	margin-top: 30px;
+  	/*margin-top: 30px;*/
   }
   }
 

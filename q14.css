@@ -42,6 +42,7 @@ div.bpmsg {
 	margin: -30px auto 0;
 	float: left;
 	padding: 0 0 5px 10px;
+	    display: none;
 }
 .bpmsg .title {
 	color: #000;

@@ -48,12 +48,12 @@ display: none;
         margin-left: 512px;
         margin-top: 118px;
     }
-	    div.v4bc {
+ div.v4bc {
     margin: 0;
     padding: 5px 0;
     position: absolute;
-    margin-top:503px;
-    left: 3%;
+    margin-top:503px !important;;
+    left: 3% !important;;
 	font-family: "Playfair Display" !important;
     z-index: -1;
 }

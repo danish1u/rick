@@ -164,17 +164,22 @@ color: #aba9a9!important;
 .pink-banner {
     margin-top: -30px;
 }
+	.pink-text1 {
+    display: block;
+}
+
 	.pink-text {
     display: none;
 }
 @media screen and (max-width: 768px) {
-    pink-banner {
+    .pink-text1 {
         display:none;
     }
 	.pink-text {
     position: relative !important;
     margin: 0px !important;
     display: block;
+		    padding: 0px;
 }
 }
 .gh-tbl {

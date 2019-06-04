@@ -34,7 +34,9 @@ jQuery(document).ready(function(){
 	});
 	var cnt ='';
 	$V(".grid tr td.gallery").each(function(){		
-
+		//$V(this).addClass('new');
+		if($V(this).html() == "")
+		{
 			cnt +='<td class="gallery" width="33%" itemscope="itemscope" itemtype="http://schema.org/Product">'+$V(this).html()+'</td>';
 		}
 		else

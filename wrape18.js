@@ -28,10 +28,5 @@ jQuery(document).ready(function(){
 			$V(".addfooter").after(footer);			
 		}
 	}
-	$V(document).ready(function(){
-		$V('.rs-pview >table:first-child').removeClass('grid');
-		$V('.rs-pview >table:first-child').addClass('grid_new');
-	});
-
 	
 });

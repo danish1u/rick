@@ -32,30 +32,6 @@ jQuery(document).ready(function(){
 		$V('.rs-pview >table:first-child').removeClass('grid');
 		$V('.rs-pview >table:first-child').addClass('grid_new');
 	});
-	var cnt ='';
-	$V(".grid tr td.gallery").each(function(){		
-		//$V(this).addClass('new');
-		if($V(this).html() == "")
-		{
-			cnt +='<td class="gallery" width="33%" itemscope="itemscope" itemtype="http://schema.org/Product">'+$V(this).html()+'</td>';
-		}
-		else
-		{
-			cnt +='<td class="gallery" width="33%" itemscope="itemscope" itemtype="http://schema.org/Product">'+$V(this).html()+'</td>';
-		}
-		
-	});
-	
-	ct =cnt;
-	
-	$V('.rs-pview >table:first-child').html('<tr>'+cnt+'<tr>');
-	
-	$V( ".fixed" ).append( "<div class='pst-buyitnow'>BUY IT NOW</div>" );
-  
-$V('.details').each(function(){
-$Vlink = $V('.ttl', this).find('a').clone().text('');
-$V('.pst-buyitnow', this).contents().wrap($Vlink);
-});
 
 	
 });

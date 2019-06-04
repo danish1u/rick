@@ -37,7 +37,7 @@ jQuery(document).ready(function(){
 		//$V(this).addClass('new');
 		if($V(this).html() == "<br>")
 		{
-			cnt +='<td class="gallery er" width="33%" itemscope="itemscope" itemtype="http://schema.org/Product">'+$V(this).html()+'</td>';
+			cnt +='<td class="gallery" width="33%" itemscope="itemscope" itemtype="http://schema.org/Product">'+$V(this).html()+'</td>';
 		}
 		else
 		{
